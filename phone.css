@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto;
+    width: auto;
+}
+.nav{
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: .5rem;
+    height: 6vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+}
+.navlist li:nth-child(1):hover{
+    background-color: purple;
+}
+.navlist li:nth-child(2):hover{
+    background-color: purple;
+}
+.navlist li:nth-child(3):hover{
+    background-color: purple;
+}
+.navlist li:nth-child(4):hover{
+    background-color: purple;
+}
+.navlist li:nth-child(5):hover{
+    background-color: purple;
+}
+.navlist li{
+    list-style: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-size: .4rem;
+}
+.left{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding-left: .8rem;
+}
+
+.social .fa-brands{
+    color: white;
+    font-size: .4rem;
+}
+.social .fa-brands:hover {
+    cursor: pointer;
+    background: linear-gradient(white,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+}
+.content{
+    margin-left: 1rem;
+}
+.content h2{
+    font-size: .4rem;
+    color: grey;
+}
+.content h2 #name{
+    font-size: larger; 
+    color: purple;
+}
+.content h1{
+    font-size: .7rem;
+    color: grey;
+}
+.content p{
+    font-size: .3rem;
+    color: blanchedalmond;
+    max-width: 6rem;
+    margin: .2rem 0 .2rem 0;
+    line-height: .6rem;
+}
+.buttons button{
+    border: .08rem solid grey;
+    font-size: .3rem;
+    padding: .1rem .6rem ;
+    border-radius: 30%;
+    cursor: pointer;
+    background:linear-gradient(black,purple);
+    color:darkgrey;
+    font-weight: bolder;
+    margin-left: .8rem;
+}
+button:nth-child(1):hover{
+    background:transparent ;
+    color: cadetblue;
+}
+.cer{
+    background:linear-gradient(black,purple);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    font-size: .4rem;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position:absolute;
+    border-radius: 50%;
+    top:18%;
+    left:80%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background: black;
+    width: 5rem;
+    border: .1rem solid grey;
+    box-shadow:
+    0 0 .4rem grey,
+    inset 0 0 .4rem grey,
+    0 0 .6rem purple,
+    inset 0 0 .6rem purple;
+}
+.circle:nth-child(2){
+    background-image:url("./image/profile.jpeg");
+    background-size:100%;
+    width: 4rem ;
+    background-repeat: no-repeat;
+    border: .1rem solid grey;
+    box-shadow:
+    0 0 .4rem grey,
+    inset 0 0 .4rem grey,
+    0 0 .6rem purple,
+    inset 0 0 .6rem purple;
+}
